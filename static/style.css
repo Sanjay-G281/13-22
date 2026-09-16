@@ -1,0 +1,54 @@
+/* Style the page background */
+body {
+  background-color: #bfbfee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title styling */
+h1 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* Subtitle */
+h2 {
+  color: #16a085;
+  font-style: italic;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  margin: 10px;
+}
+a:hover {
+  color: #e74c3c;
+}
+
+/* Images */
+img {
+  width: 150px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+button {
+    background-color: #7979d2; /* A nice digital blue color */
+    color: #FFFFFF;            /* Pure white text so it's easy to read */
+    padding: 10px 20px;        /* Adds space inside the button so it looks plump */
+    border: none;              /* Removes the default ugly gray border */
+    border-radius: 5px;        /* Rounds the corners slightly for a modern look */
+    cursor: pointer;           /* Changes the mouse cursor to a pointing hand */
+}
+
+/* Bonus: This changes the color slightly when you hover over it! */
+button:hover {
+    background-color: #0056b3; /* A slightly darker blue */
+}

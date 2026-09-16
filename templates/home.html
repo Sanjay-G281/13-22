@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
         <title>Welcome to learning platform comparison</title>
     </head>
     <body>
@@ -8,9 +9,15 @@
         <h2>Compare Different Learning Platforms</h2>
         <p>Here you can compare various programming learning platforms like LeetCode, CodeChef, and SoloLearn.</p>
 
-        <a href="/sololearn">Visit SoloLearn</a><br>
-        <a href="/codechef">Visit CodeChef</a><br>
-        <a href="/leetcode">Visit LeetCode</a><br>
+        <a href="/sololearn">
+            <button>SoloLearn</button>
+        </a>
+        <a href="/codechef">
+            <button>CodeChef</button>
+        </a>
+        <a href="/leetcode">
+            <button>LeetCode</button>
+        </a>
 
         <img src="{{ url_for('static', filename='Cchef.jpg') }}" alt="CodeChef Logo" width="200">
         <img src="{{ url_for('static', filename='soloimage.png') }}" alt="SoloLearn Logo" width="200">
